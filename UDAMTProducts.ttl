@@ -1477,7 +1477,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Progress JDBC Driver, Progress ADO.NET Pr
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7SQLServer#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8SQLServer#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9SQLServer#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9SQLServer#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9SQLServer#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease10SQLServer#this> ;
     schema:comment "Multi-Tier ODBC Driver for Microsoft SQL Server " ;
     schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
         <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
@@ -2902,7 +2903,9 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Ingres JDBC Driver, Ingres ADO.NET Provid
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8JDBCBridge#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease6JDBCBridge#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7JDBCBridge#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8JDBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9JDBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease10JDBCBridge#this> ;
     schema:comment "Multi-Tier JDBC Driver for JDBC 4.x Data Sources " ;
     schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
         <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
@@ -3173,7 +3176,9 @@ AIX ODBC Driver, Mac OS X ODBC Driver, MySQL JDBC Driver, MySQL ADO.NET Provider
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8ODBCBridge#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease6ODBCBridge#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease7ODBCBridge#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease10ODBCBridge#this> ;
     schema:comment "Multi-Tier JDBC Driver for ODBC 3.5.x Data Sources " ;
     schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
         <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
@@ -3753,7 +3758,9 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Progress JDBC Driver, Progress ADO.NET Pr
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8SQLServer#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease6SQLServer#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7SQLServer#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8SQLServer#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8SQLServer#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9SQLServer#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease10SQLServer#this> ;
     schema:comment "Multi-Tier JDBC Driver for Microsoft SQL Server (Type 3)  " ;
     schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
         <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
@@ -3891,7 +3898,9 @@ AIX ODBC Driver, Mac OS X ODBC Driver, SQL Server JDBC Driver, SQL Server ADO.NE
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionJDBCRelease8Sybase#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease6Sybase#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease7Sybase#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Sybase#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease8Sybase#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease9Sybase#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDAMultiTierEnterpriseEditionAnyDataAccessRelease10Sybase#this> ;
     schema:comment "Multi-Tier JDBC Driver for Sybase (Type 3)  " ;
     schema:isRelatedTo <http://data.openlinksw.com/oplweb/product/dotnet-db2-mt#this>,
         <http://data.openlinksw.com/oplweb/product/dotnet-informix-mt#this>,
