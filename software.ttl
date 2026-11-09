@@ -156,6 +156,7 @@
       oplsof:Oracle12                   ,
       oplsof:Oracle19                   ,
       oplsof:Oracle21                   ,
+      oplsof:Oracle23                   ,
       oplsof:frb                        ,
       oplsof:PostgreSQL6                ,
       oplsof:PostgreSQL7                ,
@@ -178,6 +179,11 @@
       oplsof:SQLServer2005              ,
       oplsof:SQLServer2000              ,
       oplsof:SQLServer2014              ,
+      oplsof:SQLServer2016              ,
+      oplsof:SQLServer2017              ,
+      oplsof:SQLServer2019              ,
+      oplsof:SQLServer2022              ,
+      oplsof:SQLServer2025              ,
       oplsof:SQLServer2012              ,
       oplsof:MySQL3                     ,
       oplsof:MySQL4                     ,
@@ -346,6 +352,7 @@
       oplsof:Oracle12                   ,
       oplsof:Oracle19                   ,
       oplsof:Oracle21                   ,
+      oplsof:Oracle23                   ,
       oplsof:frb                        ,
       oplsof:PostgreSQL6                ,
       oplsof:PostgreSQL7                ,
@@ -368,6 +375,11 @@
       oplsof:SQLServer2005              ,
       oplsof:SQLServer2000              ,
       oplsof:SQLServer2014              ,
+      oplsof:SQLServer2016              ,
+      oplsof:SQLServer2017              ,
+      oplsof:SQLServer2019              ,
+      oplsof:SQLServer2022              ,
+      oplsof:SQLServer2025              ,
       oplsof:SQLServer2012              ,
       oplsof:MySQL3                     ,
       oplsof:MySQL4                     ,
@@ -577,6 +589,7 @@
       oplsof:Oracle12                   ,
       oplsof:Oracle19                   ,
       oplsof:Oracle21                   ,
+      oplsof:Oracle23                   ,
       oplsof:frb                        ,
       oplsof:PostgreSQL6                ,
       oplsof:PostgreSQL7                ,
@@ -599,6 +612,11 @@
       oplsof:SQLServer2005              ,
       oplsof:SQLServer2000              ,
       oplsof:SQLServer2014              ,
+      oplsof:SQLServer2016              ,
+      oplsof:SQLServer2017              ,
+      oplsof:SQLServer2019              ,
+      oplsof:SQLServer2022              ,
+      oplsof:SQLServer2025              ,
       oplsof:SQLServer2012              ,
       oplsof:MySQL3                     ,
       oplsof:MySQL4                     ,
@@ -1860,6 +1878,7 @@ oplsof:Ingres9 a oplsof:DbmsEngine ;
 oplsof:Ingres10 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:Ingres ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ing10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Ingres 10 Database Engine""" ;
   rdfs:label "Ingres 10 Database Engine"^^xsd:string ;
@@ -1973,6 +1992,15 @@ oplsof:Oracle21 a oplsof:DbmsEngine ;
   rdfs:label "Oracle 21c Database Engine"^^xsd:string ;
   oplsof:hasDbmsEngineVersion "21c"^^xsd:string .
 
+oplsof:Oracle23 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:Oracle ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/ora23#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Oracle 23ai Database Engine""" ;
+  rdfs:label "Oracle 23ai Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "23ai"^^xsd:string .
+
 oplsof:frb a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:Firebird ;
@@ -2039,6 +2067,7 @@ oplsof:PostgreSQL11 a oplsof:DbmsEngine ;
 oplsof:PostgreSQL12 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:PostgreSQL ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/pos12#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """PostgreSQL 12.x Database Engine""" ;
   rdfs:label "PostgreSQL 12.x Database Engine"^^xsd:string ;
@@ -2128,7 +2157,7 @@ oplsof:SQLServer7 a oplsof:DbmsEngine ;
 oplsof:SQLServer2008 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
-  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql10#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2008 (v10.00.x) Database Engine""" ;
   rdfs:label "Microsoft SQL Server 2008 (v10.00.x) Database Engine"^^xsd:string ;
@@ -2137,7 +2166,7 @@ oplsof:SQLServer2008 a oplsof:DbmsEngine ;
 oplsof:SQLServer2008R2 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
-  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql105#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2008 R2 (v10.50.x) Database Engine""" ;
   rdfs:label "Microsoft SQL Server 2008 R2 (v10.50.x) Database Engine"^^xsd:string ;
@@ -2146,6 +2175,7 @@ oplsof:SQLServer2008R2 a oplsof:DbmsEngine ;
 oplsof:SQLServer2012 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql11#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2012 (v11.00.x) Database Engine""" ;
   rdfs:label "Microsoft SQL Server 2012 (v11.00.x) Database Engine"^^xsd:string ;
@@ -2154,14 +2184,61 @@ oplsof:SQLServer2012 a oplsof:DbmsEngine ;
 oplsof:SQLServer2014 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql12#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2014 (v12.00.x) Database Engine""" ;
   rdfs:label "Microsoft SQL Server 2014 (v12.00.x) Database Engine"^^xsd:string ;
   oplsof:hasDbmsEngineVersion "12.00.x"^^xsd:string .
 
+oplsof:SQLServer2016 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql13#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Microsoft SQL Server 2016 (v13.00.x) Database Engine""" ;
+  rdfs:label "Microsoft SQL Server 2016 (v13.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "13.00.x"^^xsd:string .
+
+oplsof:SQLServer2017 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql14#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Microsoft SQL Server 2017 (v14.00.x) Database Engine""" ;
+  rdfs:label "Microsoft SQL Server 2017 (v14.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "14.00.x"^^xsd:string .
+
+oplsof:SQLServer2019 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql15#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Microsoft SQL Server 2019 (v15.00.x) Database Engine""" ;
+  rdfs:label "Microsoft SQL Server 2019 (v15.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "15.00.x"^^xsd:string .
+
+oplsof:SQLServer2022 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql16#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Microsoft SQL Server 2022 (v16.00.x) Database Engine""" ;
+  rdfs:label "Microsoft SQL Server 2022 (v16.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "16.00.x"^^xsd:string .
+
+oplsof:SQLServer2025 a oplsof:DbmsEngine ;
+  oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
+  oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql17#this> ;
+  rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
+  schema:name """Microsoft SQL Server 2025 (v17.00.x) Database Engine""" ;
+  rdfs:label "Microsoft SQL Server 2025 (v17.00.x) Database Engine"^^xsd:string ;
+  oplsof:hasDbmsEngineVersion "17.00.x"^^xsd:string .
+
 oplsof:SQLServer2000 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql8#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2000 (v8.00.x) Database Engine""" ;
   rdfs:label "Microsoft SQL Server 2000 (v8.00.x) Database Engine"^^xsd:string ;
@@ -2170,6 +2247,7 @@ oplsof:SQLServer2000 a oplsof:DbmsEngine ;
 oplsof:SQLServer2005 a oplsof:DbmsEngine ;
   oplpro:hasCategory <http://data.openlinksw.com/oplweb/product_category/SqlRdbms#this> ;
   oplsof:hasDatabaseFamily oplsof:SQLServer ;
+  owl:sameAs <http://data.openlinksw.com/oplweb/dbms_engine/sql9#this> ;
   rdfs:isDefinedBy <http://www.openlinksw.com/ontology/software#> ;
   schema:name """Microsoft SQL Server 2005 (v9.00.x) Database Engine""" ;
   rdfs:label "Microsoft SQL Server 2005 (v9.00.x) Database Engine"^^xsd:string ;

@@ -50,6 +50,7 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/dbms_engine/ing6#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ing64#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ingii#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/ing10#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/jdbc#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/mys3#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/mys4#this> ,
@@ -61,6 +62,7 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/dbms_engine/ora12#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora19#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora21#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/ora23#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora7#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora8#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/ora9#this> ,
@@ -71,6 +73,7 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/dbms_engine/pos9#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pos10#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pos11#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/pos12#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pro10#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pro62f#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/pro73c#this> ,
@@ -106,6 +109,10 @@ source: a schema:CreativeWork ;
               <http://data.openlinksw.com/oplweb/dbms_engine/sql11#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/sql12#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/sql13#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/sql14#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/sql15#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/sql16#this> ,
+              <http://data.openlinksw.com/oplweb/dbms_engine/sql17#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/syb10#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/syb11#this> ,
               <http://data.openlinksw.com/oplweb/dbms_engine/syb12#this> ,
@@ -851,6 +858,16 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product/odbc-ingres-ee#this>,
         <http://data.openlinksw.com/oplweb/product/odbc-ingres-mt#this>,
         <http://data.openlinksw.com/oplweb/product/odbc-ingres-st#this> ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/Ingres#this> .
+
+<http://data.openlinksw.com/oplweb/dbms_engine/ing10#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "Ingres 10" ;
+    schema:name "Ingres 10 Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "0"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "c10" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "10" ;
     oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/Ingres#this> .
 
 <http://data.openlinksw.com/oplweb/dbms_engine/jdbc#this> a oplsof:DbmsEngine ;
@@ -1984,6 +2001,21 @@ source: a schema:CreativeWork ;
     oplsof:DbmsEngineOldArchiveCode "o21" ;
     oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
     oplsof:hasDbmsEngineVersion "21c" ;
+    oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-oracle-st#this> ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/Oracle#this> .
+
+<http://data.openlinksw.com/oplweb/dbms_engine/ora23#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "Oracle 23ai" ;
+    schema:name "Oracle 23ai Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "1"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "o23" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "23ai" ;
     oplpro:hasProduct <http://data.openlinksw.com/oplweb/product/dotnet-oracle-mt#this>,
         <http://data.openlinksw.com/oplweb/product/jdbc-oracle-mt#this>,
         <http://data.openlinksw.com/oplweb/product/odbc-oracle-ee#this>,
@@ -3277,6 +3309,21 @@ source: a schema:CreativeWork ;
         <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
     oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/PostgreSQL#this> .
 
+<http://data.openlinksw.com/oplweb/dbms_engine/pos12#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "PostgreSQL 12.x" ;
+    schema:name "PostgreSQL 12.x Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "0"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "g8" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "12.x" ;
+    oplpro:hasProduct # <http://data.openlinksw.com/oplweb/product/dotnet-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/jdbc-postgres-mt#this>,
+        # <http://data.openlinksw.com/oplweb/product/odbc-postgres-ee#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-mt#this>,
+        <http://data.openlinksw.com/oplweb/product/odbc-postgres-st#this> ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/PostgreSQL#this> .
+
    
 <http://data.openlinksw.com/oplweb/dbms_engine/pro10#this> a oplsof:DbmsEngine ;
     wdrs:describedby source: ;
@@ -4348,6 +4395,36 @@ source: a schema:CreativeWork ;
     oplsof:DbmsEngineOldArchiveCode "md" ;
     oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
     oplsof:hasDbmsEngineVersion "14.x" ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/SQLServer#this> .
+
+<http://data.openlinksw.com/oplweb/dbms_engine/sql15#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "Microsoft SQL Server 2019 (v15.00.x)" ;
+    schema:name "Microsoft SQL Server 2019 (v15.00.x) Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "0"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "md" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "15.x" ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/SQLServer#this> .
+
+<http://data.openlinksw.com/oplweb/dbms_engine/sql16#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "Microsoft SQL Server 2022 (v16.00.x)" ;
+    schema:name "Microsoft SQL Server 2022 (v16.00.x) Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "0"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "md" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "16.x" ;
+    oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/SQLServer#this> .
+
+<http://data.openlinksw.com/oplweb/dbms_engine/sql17#this> a oplsof:DbmsEngine ;
+    wdrs:describedby source: ;
+    skos:altLabel "Microsoft SQL Server 2025 (v17.00.x)" ;
+    schema:name "Microsoft SQL Server 2025 (v17.00.x) Database Engine" ;
+    oplsof:DbmsEngineDownwardCompatible "0"^^xsd:string ;
+    oplsof:DbmsEngineOldArchiveCode "md" ;
+    oplsof:DbmsEngineUpwardCompatible "1"^^xsd:string ;
+    oplsof:hasDbmsEngineVersion "17.x" ;
     oplsof:hasDatabaseFamily <http://data.openlinksw.com/oplweb/dbms_family/SQLServer#this> .
 
 <http://data.openlinksw.com/oplweb/dbms_engine/syb10#this> a oplsof:DbmsEngine ;
