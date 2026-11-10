@@ -228,7 +228,8 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Informix JDBC Driver, Informix ADO.NET Pr
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseIngres#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7Ingres#this> ;
-    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ingii#this> ;
+    oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/ingii#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/ing10#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#Ingres> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
         <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
@@ -471,7 +472,10 @@ AIX ODBC Driver, Mac OS X ODBC Driver, MySQL JDBC Driver, MySQL ADO.NET Provider
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCReleaseODBCBridge#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease7ODBCBridge#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8ODBCBridge#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease8ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease8ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease9ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease10ODBCBridge#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/odbc#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#ODBCBridge> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-generic-win-32#this>,
@@ -623,7 +627,10 @@ AIX ODBC Driver, Mac OS X ODBC Driver, ODBC ODBC Driver for ODBC 3.5.x Data Sour
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/pos6#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/pos7#this>,
         <http://data.openlinksw.com/oplweb/dbms_engine/pos8#this> ,
-        <http://data.openlinksw.com/oplweb/dbms_engine/pos9#this> ;
+        <http://data.openlinksw.com/oplweb/dbms_engine/pos9#this> ,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pos10#this> ,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pos11#this> ,
+        <http://data.openlinksw.com/oplweb/dbms_engine/pos12#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#PostgreSQL> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
         <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
@@ -830,7 +837,18 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Progress JDBC Driver, Progress ADO.NET Pr
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionODBCRelease10SQLServer#this>;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/sql#this> ,
                              <http://data.openlinksw.com/oplweb/dbms_engine/sql6#this> ,
-                             <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql8#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql9#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql10#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql105#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql11#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql12#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql13#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql14#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql15#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql16#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql17#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#SQLServer> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/alphaev6-dec-osf5.0-64#this>,
         <http://data.openlinksw.com/oplweb/opsys/hppa1-1-hp-hpux10.20-32#this>,
@@ -1121,7 +1139,18 @@ AIX ODBC Driver, Mac OS X ODBC Driver, ODBC ADO.NET Provider, ODBC OLE-DB Provid
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/sql#this> ,
                              <http://data.openlinksw.com/oplweb/dbms_engine/sql6#this> ,
-                             <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ;
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql7#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql8#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql9#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql10#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql105#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql11#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql12#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql13#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql14#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql15#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql16#this> ,
+                             <http://data.openlinksw.com/oplweb/dbms_engine/sql17#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#SQLServer> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/clr-ecma-mono1.1-32#this>,
         <http://data.openlinksw.com/oplweb/opsys/clr-microsoft-dotnet1.1-32#this>,
@@ -1218,7 +1247,11 @@ AIX ODBC Driver, Mac OS X ODBC Driver, Sybase JDBC Driver, Sybase ADO.NET Provid
     oplpro:hasFormat <http://data.openlinksw.com/oplweb/product_format/st#this> ;
     oplpro:hasRelease <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCReleaseODBCBridge#this> ,
                       <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease7ODBCBridge#this> ,
-                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ;
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease8ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionJDBCRelease9ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease8ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease9ODBCBridge#this> ,
+                      <http://data.openlinksw.com/oplweb/product_release/UDASingleTierLiteEditionAnyDataAccessRelease10ODBCBridge#this> ;
     oplsof:hasDatabaseEngine <http://data.openlinksw.com/oplweb/dbms_engine/odbc#this> ;
     oplsof:hasDatabaseFamily <http://www.openlinksw.com/ontology/software#ODBCBridge> ;
     oplsof:hasOperatingSystem <http://data.openlinksw.com/oplweb/opsys/i686-apple-macosx10.4-32#this>,
